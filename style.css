@@ -76,45 +76,27 @@ table {
   border-radius: 5px;
 }
 
-<head>
-  <title>Mi Sitio Web</title>
-  <meta name="description" content="Este es el sitio web de ejemplo.">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Language" content="es">
-  
-  <!-- Link a Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-  
-  <!-- Link a la hoja de estilos CSS -->
-  <link rel="stylesheet" href="style.css">
-  
-  <!-- Link hacia el favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-
-/* style.css */
+/* Fondo con degradado y relleno */
 .bg-gradient {
   background: linear-gradient(to right, #f5f7fa, #c3cfe2);
   min-height: 100vh;
 }
+
 .section-padding {
   padding: 3rem 0;
 }
-<body class="bg-gradient">
-  <div class="container section-padding">
-    <!-- contenido -->
-  </div>
-</body>
 
-/* style.css */
+/* Botón personalizado */
 .btn-custom {
   background-color: #007bff;
   border: none;
   color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
   transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 .btn-custom:hover {
   background-color: #0056b3;
 }
-
