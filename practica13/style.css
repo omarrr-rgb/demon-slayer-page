@@ -92,3 +92,29 @@ table {
   <!-- Link hacia el favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
+/* style.css */
+.bg-gradient {
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+}
+.section-padding {
+  padding: 3rem 0;
+}
+<body class="bg-gradient">
+  <div class="container section-padding">
+    <!-- contenido -->
+  </div>
+</body>
+
+/* style.css */
+.btn-custom {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
